@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #004080;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a strong {
+    font-size: 17px;
+    margin: 0;
+    color: #fff;
+    text-decoration: none;
+}
+
+.projects-section {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: left; /* Align text to the left in section */
+}
+
+section {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center; /* Align text to the left in section */
+}
+
+ul {
+    list-style-type: disc; /* Adds bullet points */
+    padding-left: 20px; /* Ad   ds some left padding for indentation */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #cc0000;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+h2 {
+    color: #004080;
+}
+
+button {
+    padding: 10px;
+    background-color: #cc0000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b30000;
+}
+
+/* Media Query for Responsiveness */
+@media (max-width: 768px) {
+    body {
+        text-align: center;
+    }
+
+    .projects-section, section {
+        padding: 15px;
+        width: 100%; /* Ensure section takes full width */
+    }
+
+    nav {
+        margin: 10px 0;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    .projects-section, section {
+        padding: 10px;
+    }
+
+    button {
+        padding: 12px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
